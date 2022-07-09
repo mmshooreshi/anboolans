@@ -20,7 +20,6 @@ export default function App() {
     <div className='App'>
       <Canvas>
         <Suspense fallback={null}>
-          <Model />
           <Modell src='./assets/ambulance.glb' />
           <OrbitControls />
           <Environment preset='sunset' background />
